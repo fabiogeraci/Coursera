@@ -1,7 +1,5 @@
 import itertools
 import matplotlib.pyplot as plt
-from matplotlib.ticker import NullFormatter
-import matplotlib.ticker as ticker
 import pandas as pd
 
 pd.set_option('display.max_columns', 20)
