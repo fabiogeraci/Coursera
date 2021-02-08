@@ -97,7 +97,6 @@ def score_matrix(*args):
     yhat_probs_ = args[8]
     model_type_ = args[9]
 
-
     if args[0] > 0:
         mean_acc_[n - 1] = metrics.accuracy_score(y_test_, yhat_)
         j_score_[n - 1] = jaccard_score(y_test_, yhat_, pos_label=0)
