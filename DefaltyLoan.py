@@ -15,7 +15,7 @@ from sklearn import metrics
 from sklearn.metrics import jaccard_score, f1_score, log_loss
 
 
-save_path = os.path.join(os.getcwd(), 'loan_train.csv')
+save_path = os.path.join(os.getcwd(), 'data/loan_train.csv')
 print(save_path)
 url = 'https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/' \
       'labs/FinalModule_Coursera/data/loan_train.csv'
@@ -35,7 +35,7 @@ else:
     print('File Already Exists')
 
 
-df = pd.read_csv('loan_train.csv')
+df = pd.read_csv('data/loan_train.csv')
 
 # Convert to date time object
 df['due_date'] = pd.to_datetime(df['due_date'])
@@ -271,7 +271,7 @@ print("Max f_score was with {:.3f}".format(f_score.max()), "with k=", f_score.ar
 print("Max l_loss was with {:.3f}".format(l_loss.max()), "with k=", l_loss.argmax() + 1)
 print("Max standard accuracy was with {:.3f}".format(std_acc.max()), "with k=", std_acc.argmax() + 1)
 
-save_path = os.path.join(os.getcwd(), 'loan_test.csv')
+save_path = os.path.join(os.getcwd(), 'data/loan_test.csv')
 print(save_path)
 
 url = 'https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/loan_test.csv'
@@ -282,7 +282,7 @@ if not os.path.isfile(save_path):
 else:
     print('File Already Exists')
 
-df_new = pd.read_csv('loan_test.csv')
+df_new = pd.read_csv('data/loan_test.csv')
 df_new.head()
 
 df_new['due_date'] = pd.to_datetime(df_new['due_date'])

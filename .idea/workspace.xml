@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7af7afd2-b64e-4e11-8586-d2d7ebfb58ab" name="Default Changelist" comment="New Dev Proj">
+      <change afterPath="$PROJECT_DIR$/Clustering_Spark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPython/Clustering_Spark.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DefaltyLoan.py" beforeDir="false" afterPath="$PROJECT_DIR$/DefaltyLoan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proj-Loan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/iPython/Proj-Loan.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spark_Pipe_Example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spark_Pipe_Example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmp.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/loan_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/loan_train.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +46,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="/opt/spark/python/lib/pyspark.zip" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.a6_w3_ex1">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/iPython" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Spark_Pipe_Example">
     <configuration name="DefaltyLoan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="a6_w3_ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Spark_Pipe_Example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a6_w3_ex1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spark_Pipe_Example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.a6_w3_ex1" />
+        <item itemvalue="Python.Spark_Pipe_Example" />
         <item itemvalue="Python.DefaltyLoan" />
       </list>
     </recent_temporary>
