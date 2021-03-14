@@ -113,7 +113,7 @@ print("Silhouette with squared euclidean distance = " + str(silhouette))
 
 from pyspark.ml.clustering import GaussianMixture
 
-gmm = GaussianMixture().setK(2).setSeed(1)
+gmm = GaussianMixture(featuresCol="features").setK(2).setSeed(1)
 pipeline = pipeline = Pipeline(stages=[vectorAssembler, gmm])
 
 model = pipeline.fit(df)

@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7af7afd2-b64e-4e11-8586-d2d7ebfb58ab" name="Default Changelist" comment="New Dev Proj">
-      <change afterPath="$PROJECT_DIR$/Clustering_Spark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iPython/Clustering_Spark.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_jack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coursera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sample_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DefaltyLoan.py" beforeDir="false" afterPath="$PROJECT_DIR$/DefaltyLoan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proj-Loan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/iPython/Proj-Loan.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clustering_Spark.py" beforeDir="false" afterPath="$PROJECT_DIR$/Clustering_Spark.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spark_Pipe_Example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spark_Pipe_Example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hmp.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/loan_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/loan_train.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +51,8 @@
       <recent name="$PROJECT_DIR$/iPython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Spark_Pipe_Example">
-    <configuration name="DefaltyLoan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.black_jack">
+    <configuration name="Clustering_Spark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DefaltyLoan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Clustering_Spark.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,10 +94,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="black_jack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coursera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/black_jack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="coursera" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coursera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coursera.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tictactoe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coursera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tictactoe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.black_jack" />
+        <item itemvalue="Python.tictactoe" />
+        <item itemvalue="Python.coursera" />
+        <item itemvalue="Python.Clustering_Spark" />
         <item itemvalue="Python.Spark_Pipe_Example" />
-        <item itemvalue="Python.DefaltyLoan" />
       </list>
     </recent_temporary>
   </component>
